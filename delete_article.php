@@ -1,5 +1,5 @@
 <?php
-if (session_status() !== PHP_SESSION_ACTIVE) session_start();
+session_start();
 require_once 'src/ArticleRepository.php';
 $article = new ArticleRepository("json_files/articles.json");
 $articles = $article->getAllArticles();

@@ -1,5 +1,5 @@
 <?php
-if (session_status() !== PHP_SESSION_ACTIVE) session_start();
+session_start();
 if (!empty($_GET['id'])) {
   require_once 'src/ArticleRepository.php';
  

@@ -1,5 +1,5 @@
 <?php
-if (session_status() !== PHP_SESSION_ACTIVE) session_start();
+session_start();
 require_once 'src/ArticleRepository.php';
 require_once 'src/Models/Article.php';
 

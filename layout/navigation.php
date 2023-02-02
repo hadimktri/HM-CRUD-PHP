@@ -20,7 +20,7 @@
   <ul class="nav me-2">
     
 
-  <li class="nav-item p-1">
+  <li class="nav-item p-1" >
     <a class="nav-link text-white" href="login.php" target=blank>Sign In</a>
   </li>
 

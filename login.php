@@ -1,5 +1,5 @@
 <?php
-if (session_status() !== PHP_SESSION_ACTIVE) session_start();
+session_start();
 require_once 'src/UserRepository.php';
 require_once 'helpers/helpers.php';
 
@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] === 'POST') {
         if ($userPass === $password) {
             $_SESSION['email'] = $email;
             $_SESSION['id'] = $user->getID();
-            $_SESSION['login'] = true;
+            $_SESSION["logged_in"] = true;
             header("Location:articles.php");
             exit();
         }
