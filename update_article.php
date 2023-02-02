@@ -47,7 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] === 'POST') {
       </div>
     <?php } ?>
   </div>
-  <!-- form  -->
+
   <div class="container">
     <form action="#" method="POST">
       <fieldset>

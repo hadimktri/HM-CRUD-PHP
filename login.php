@@ -39,8 +39,6 @@ if ($_SERVER["REQUEST_METHOD"] === 'POST') {
 
 <body class="wrapper">
     <?php require_once 'layout/navigation.php' ?>
-
-
     <!-- Display Error messages -->
     <div class="container" id="main">
         <div class="container mx-auto mt-10">

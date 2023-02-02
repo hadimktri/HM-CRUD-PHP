@@ -21,7 +21,6 @@ if ($_SERVER["REQUEST_METHOD"] === 'POST') {
         move_uploaded_file($temporaryPath, __DIR__ . "images/$originalFileName");
     }
 
-
     if (empty($email) || !validEmail($email)) {
         $errorMsg .= '<p>Please enter the email.</p>';
     }
