@@ -55,7 +55,7 @@ if ($_SERVER["REQUEST_METHOD"] === 'POST') {
 
         </div>
         <div class="container my-4">
-            <form action="#" method="POST" enctype="multipart/form-data ">
+            <form action="#" method="POST" enctype="multipart/form-data">
 
                 <h3 class="font-bold mt-2">Insert Your Info</h3>
                 <p class="mt-2 text-center text-sm text-gray-600">Already Have an account?
